@@ -2,7 +2,7 @@
   "name": "cm-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "cli.js",
+  "main": "./bin/cli.js",
   "bin": {
     "cm": "./bin/cli.js"
   },
@@ -13,11 +13,23 @@
     "type": "git",
     "url": "git+https://github.com/chenmei1/cm-cli.git"
   },
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/chenmei1/cm-cli/issues"
   },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "author": {
+    "name": "cherry",
+    "email": "912749558@qq.com"
+  },
+  "keywords": [
+    "zhurong-cli",
+    "zr",
+    "脚手架"
+  ],
   "homepage": "https://github.com/chenmei1/cm-cli#readme",
   "dependencies": {
     "axios": "^0.24.0",
